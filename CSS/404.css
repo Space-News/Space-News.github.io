@@ -1,0 +1,27 @@
+body {
+  font-family: "montserrat",sans-serif;
+  background-color: #10ac84;
+  text-align: center;
+
+}
+
+h1{
+  font-size: 160px;
+  font-weight: 900;
+  letter-spacing: 20px;
+}
+
+a {
+  text-decoration: none;
+    background: #576574;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+a:hover{
+  background-color: #222f3e;
+}

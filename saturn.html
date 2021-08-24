@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Code by Lisandu Sandiv-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:title" content="Space Race" />
+  <meta property="og:site_name" content="race" />
+  <meta property="og:description" content="Created by Liandu Sandiv" />
+  <meta property="og:image" content="Icons\fav 2.png" />
+  <title>Mysterious Saturn</title>
+  <link rel="shortcut icon" type="image/svg" href="Icons\launch.svg">
+  <link rel="stylesheet" href="CSS\style.css">
+  <link rel="stylesheet" href="CSS\nav.csss">
+  <link rel="stylesheet" href="#">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS\Loader.css">
+  <script src="jquery-2.1.4.js"></script>
+  <script defer src="JavaScript\Script.js"></script>
+  <script defer src="JavaScript\pre.js"></script>
+
+</head>
+<style>
+  header {
+    background-image: url("Images/Saturn_during_Equinox.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+</style>
+
+<body>
+  <!-- prelorder start  -->
+
+
+  <div class="loader">
+    <div class="sk-circle">
+      <div class="sk-circle1 sk-child"></div>
+      <div class="sk-circle2 sk-child"></div>
+      <div class="sk-circle3 sk-child"></div>
+      <div class="sk-circle4 sk-child"></div>
+      <div class="sk-circle5 sk-child"></div>
+      <div class="sk-circle6 sk-child"></div>
+      <div class="sk-circle7 sk-child"></div>
+      <div class="sk-circle8 sk-child"></div>
+      <div class="sk-circle9 sk-child"></div>
+      <div class="sk-circle10 sk-child"></div>
+      <div class="sk-circle11 sk-child"></div>
+      <div class="sk-circle12 sk-child"></div>
+    </div>
+  </div>
+  <script src="JavaScript\pre.js" charset="utf-8"></script>
+
+  <!-- prelorder end  -->
+
+  <nav id="navbar">
+    <lable class="logo">
+      <p style="font-family:Space;">Space news</p>
+    </lable>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <br><br>
+
+
+
+
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="Icons\up-arrow.png" style="width:60%;"></button>
+
+  <script type="text/javascript">
+    var lastScrollTop = 0;
+    navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", function() {
+      var scrollTop = window.pageYOffset || document
+        .documentElement.scrollTop;
+
+      if (scrollTop > lastScrollTop) {
+        navbar.style.top = "-80px";
+      } else {
+        navbar.style.top = "0";
+      }
+      lastScrollTop = scrollTop;
+    })
+
+    window.addEventListener('scroll', function() {
+      let header = document.querySelector('header');
+      let windowPosition = window.scrollY > 0;
+      header.classList.toggle('scrolling-active', windowPosition);
+    })
+  </script>
+
+  <br>
+
+  <header>
+    <center>
+      <div id="banner">
+        <h1 style="color:#bdc3c7; font-family:Space; ">Mysterious <span style="color:#bd3d3b;"> <br>Saturn</span></h1>
+
+    </center>
+    </div>
+  </header>
+
+  <center>
+    <h1>Mysterious Wobbles in Saturn's Rings Reveal Clues About Its 'Fuzzy' Interior</h1><br>
+  </center>
+  <div class="center">
+    <p align="justify">
+    <h2>What's in a gas giant?</h2><br>
+
+    <p align="justify"> No, really. The interiors of Jupiter and Saturn are actually quite difficult to probe. But Saturn's uniquely glorious and extensive ring system is proving to be an excellent tool for figuring out the densities deep below its
+      thick cloud layers, right down to the core.</p><br>
+ <img src="Images\saturn-rings_1024 .png" alt="Misteroussatum" style="float:right; width:45%; padding: 10px; border-radius:0.8rem;">
+    <p align="justify"> That core, according to a new analysis of 'wobbles' in Saturn's innermost main ring, likely isn't a dense ball of nickel and iron, as currently thought, but a "fuzzy" region of mostly hydrogen and helium, with a gradual mixing
+      of heavier elements, extending to 60 percent of the planet's radius and containing around 17 Earth masses of ice and rock.<br>
+      This finding, published on preprint server arXiv and awaiting peer review, is similar to recent findings about Jupiter's interior based on Juno data, and it could change our assumptions about Saturn's early structure and formation history.</p>
+    <br>
+
+    <p align="justify">How can we learn that from Saturn's rings? It all has to do with the way rumbles in Saturn's belly influence the planet's external gravitational field.
+      Acoustic waves and oscillations inside cosmic bodies are a brilliant tool for probing their interior structure. We do it here on Earth, where quakes send similar waves rippling through the planet; how these waves bounce around in there can
+      reveal different densities, allowing us to identify structures we could never hope to see. On the Sun, and other stars, interior acoustic waves manifest as brightness fluctuations.</p><br>
+
+    <p align="justify">Saturn is no place for a seismometer, and it doesn't undergo brightness fluctuations, but a few years ago, scientists noticed signature patterns in Saturn's C ring, the innermost of its main rings.</p><br>
+
+    <p align="justify"> These, they concluded, were unlikely to be produced by Saturn's moons, as such patterns are in the outer rings; instead, they seem to be generated by oscillations deep in the planetary interior, which influence the
+      gravitational field.</p><br>
+    <p align="justify">Thus the field of kronoseismology emerged: the study of Saturn's interior by analysing these waves in the C ring.</p><br>
+
+
+    <p align="justify">Now astrophysicists Christopher Mankovich and Jim Fuller of Caltech have conducted a new analysis of a previously characterized inner C ring wave, whose frequency was much lower than expected of the established Saturn interior
+      model. This frequency pattern, they found, places a stringent new constraint on Saturn's interior composition.
+    <p align="justify"> "Our models place tight constraints on the mass and size of the heavy element core of Saturn, even as the dilute nature of this core requires a more nuanced description than in traditional layered models," they wrote in their
+      paper.</p><br>
+
+    <p align="justify">Based on these constraints, they inferred that the -mass of the core is around 55 times the mass of Earth, containing 17 Earth masses' worth of rock and ice. The rest would predominantly be hydrogen and helium; the entire thing
+      is diffuse and gradually mixed, rather than strictly delineated stratification, with a denser concentration of heavier elements in the very center.<br>
+      This poses something of a challenge for planetary formation models. It's thought that planets form from a bottom-up, pebble accretion model, in which small chunks of rock are electrostatically bound together until the planetary "seed" is large
+      enough to gravitationally attract more and more material - eventually forming a planet.</p><br>
+    <p align="justify">
+      For gas giants, like Jupiter and Saturn, heavier material was thought to sink towards the center, forming a solid core and letting the lower-density gas rise to the outer regions.
+      Recent models suggest more gradual distribution of material; or it's possible that convective mixing results in a more gradual distribution.</p><br>
+    <p align="justify"> Even so, modeling formation pathways for a fuzzy core has proven challenging, and it's likely that more complex science jiggery-pokery will be required to fully understand how it can happen.
+      That may be putting the cart a little before the horse, though. The new study is based on one C ring wave. A little more kronoseismology would help validate the interpretation of a fuzzy Saturn core.</p><br>
+    <p align="justify">The research is available on arXiv.
+
+
+
+
+
+    </p>
+
+
+    <br> <br> <br>
+    </p>
+    </span>
+    <div class="top"></div>
+  </div>
+
+  <br><br><br><br><br>
+  <hr><br>
+  <center>
+    <br>
+    <p>Designed and developed by <strong>Lisandu Sandiv</strong><br>
+    <p>¯\_(ツ)_/¯</p>
+    </p><br><br><br><br>
+  </center>
+
+</body>
+
+</html>

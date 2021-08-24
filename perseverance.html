@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Code by Lisandu Sandiv-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:title" content="Space Race" />
+  <meta property="og:site_name" content="race" />
+  <meta property="og:description" content="Created by Liandu Sandiv" />
+  <meta property="og:image" content="Icons\fav 2.png" />
+  <title>Perseverance</title>
+  <link rel="shortcut icon" type="image/svg" href="Icons\fav.png">
+  <link rel="stylesheet" href="CSS\style.css">
+  <link rel="stylesheet" href="CSS\nav.csss">
+  <link rel="stylesheet" href="#">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS\Loader.css">
+  <script src="jquery-2.1.4.js"></script>
+  <script defer src="JavaScript\Script.js"></script>
+  <script defer src="JavaScript\pre.js"></script>
+
+</head>
+<style>
+  .section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    attachment: fixed;
+  }
+
+  .section h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Cookie";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+
+  }
+
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    attachment: fixed;
+  }
+
+  .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+</style>
+
+<body>
+  <!-- prelorder start  -->
+
+
+  <div class="loader">
+    <div class="sk-circle">
+      <div class="sk-circle1 sk-child"></div>
+      <div class="sk-circle2 sk-child"></div>
+      <div class="sk-circle3 sk-child"></div>
+      <div class="sk-circle4 sk-child"></div>
+      <div class="sk-circle5 sk-child"></div>
+      <div class="sk-circle6 sk-child"></div>
+      <div class="sk-circle7 sk-child"></div>
+      <div class="sk-circle8 sk-child"></div>
+      <div class="sk-circle9 sk-child"></div>
+      <div class="sk-circle10 sk-child"></div>
+      <div class="sk-circle11 sk-child"></div>
+      <div class="sk-circle12 sk-child"></div>
+    </div>
+  </div>
+  <script src="JavaScript\pre.js" charset="utf-8"></script>
+
+  <!-- prelorder end  -->
+
+  <nav id="navbar">
+    <lable class="logo">
+      <p style="font-family:Space;">Space news</p>
+    </lable>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <br><br>
+
+
+
+
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="Icons\up-arrow.png" style="width:60%;"></button>
+
+  <script type="text/javascript">
+    var lastScrollTop = 0;
+    navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", function() {
+      var scrollTop = window.pageYOffset || document
+        .documentElement.scrollTop;
+
+      if (scrollTop > lastScrollTop) {
+        navbar.style.top = "-80px";
+      } else {
+        navbar.style.top = "0";
+      }
+      lastScrollTop = scrollTop;
+    })
+
+    window.addEventListener('scroll', function() {
+      let header = document.querySelector('header');
+      let windowPosition = window.scrollY > 0;
+      header.classList.toggle('scrolling-active', windowPosition);
+    })
+  </script>
+
+  <br>
+
+  <div class="section">
+
+    <h1 style="color:#bdc3c7; font-family:Space; ">Perseverance<span style="color:#bd3d3b;"> <br>NASA</span></h1>
+
+    <div class="video-container">
+      <div class="color-overlay"></div>
+      <video autoplay loop muted>
+        <source src="Videos\Perseverance.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </div>
+  <div style="height:20px;width:100%">
+
+
+
+
+
+
+  </div>
+  <center>
+
+    <h1>NASA's Perseverance Rover</h1><br><br>  </center>
+
+
+  <div class="center">
+    <span align="justify">
+      <p align="justify">Over the past two decades, missions flown by NASA’s Mars Exploration Program have shown us that Mars was once very different from the cold, dry planet it is today. Evidence discovered by landed and orbital missions point to
+        wet conditions billions of years ago. These environments lasted long enough to potentially support the development of microbial life. <br> <br>
+
+        The Mars 2020/Perseverance rover is designed to better understand the geology of Mars and seek signs of ancient life. The mission will collect and store a set of rock and soil samples that could be returned to Earth in the future. It will
+        also test new technology to benefit future robotic and human exploration of Mars. <br> <br>
+      <h2> Key Objectives </h2> <br>
+      <p>
+        • Explore a geologically diverse landing site <br>
+        • Assess ancient habitability <br>
+        • Seek signs of ancient life, particularly in special rocks known to preserve signs of life over time <br>
+        • Gather rock and soil samples that could be returned to Earth by a future NASA mission <br>
+        • Demonstrate technology for future robotic and human exploration <br><br>
+      </p>
+
+      <h2> Mission Timeline</h2> <br>
+      <p>
+        • Launch in July-August 2020 from Cape Canaveral Air Force Station, Florida<br>
+        • Launching on a ULA Atlas 541 procured under NASA’s Launch Services Program<br>
+        • Land on Mars on February 18, 2021 at the site of an ancient river delta in a lake that once filled Jezero Crater<br>
+        • Spend at least one Mars year (two Earth years)
+        <br><br>
+      </p>
+      <h1>3D Model</h1><br>
+<iframe src='https://mars.nasa.gov/layout/embed/model/?s=6' width='100%' height='500' scrolling='no' frameborder='0' allowfullscreen style="border-radius:1rem; "></iframe>
+      <br><br><h2> Key Hardware</h2>
+      <br>
+      <p>
+        Perseverance will carry seven instruments to conduct unprecedented science and test new technology on the Red Planet. They are: <br><br>
+
+      <h3>• Mastcam-Z,</h3> <br>
+      <p> An advanced camera system with panoramic and stereoscopic imaging capability with the ability to zoom. The instrument also will determine mineralogy of the Martian surface and assist with rover operations. The principal investigator is
+        James
+        Bell, Arizona State University in Tempe.
+      <p><br>
+
+      <h3>• SuperCam </h3><br>
+      <p> An instrument that can provide imaging, chemical composition analysis, and mineralogy at a distance. The principal investigator is Roger Wiens, Los Alamos National Laboratory, Los Alamos, New Mexico. This instrument also has a significant
+        contribution from the Centre National d’Etudes Spatiales, Institut de Recherche en Astrophysique et Planétologie (CNES/IRAP), France.
+      <p> <br>
+
+      <h3>• Planetary Instrument for X-ray Lithochemistry (PIXL), </h3> <br>
+
+      <p> An X-ray fluorescence spectrometer and high-resolution imager to map the fine-scale elemental composition of Martian surface materials. PIXL will provide capabilities that permit more detailed detection and analysis of chemical elements
+        than ever before. The principal investigator is Abigail Allwood, NASA’s Jet Propulsion Laboratory (JPL) in Pasadena, California.
+      <p> <br><br>
+<img src="Images\Presavence.jpg" alt="Perseverance" style="float:right; width:50%; padding: 10px; border-radius:0.8rem;">
+      <h3>• Scanning Habitable Environments with Raman & Luminescence for Organics and Chemicals (SHERLOC),</h3><br>
+
+      <p>A spectrometer that will provide fine-scale imaging and uses an ultraviolet (UV) laser to map mineralogy and organic compounds. SHERLOC will be the first UV Raman spectrometer to fly to the surface of Mars and will provide complementary
+        measurements with other instruments in the payload. SHERLOC includes a high-resolution color camera for microscopic imaging of Mars’ surface. The principal investigator is Luther Beegle, JPL.
+      <p><br><br>
+
+      <h3>• The Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE),</h3><br>
+
+      <p>A technology demonstration that will produce oxygen from Martian atmospheric carbon dioxide. If successful, MOXIE’s technology could be used by future astronauts on Mars to burn rocket fuel for returning to Earth. The principal investigator
+        is Michael Hecht, Massachusetts Institute of Technology, Cambridge, Massachusetts.
+      <p> <br><br>
+
+      <h3>• Mars Environmental Dynamics Analyzer (MEDA),</h3><br>
+
+      <p>A set of sensors that will provide measurements of temperature, wind speed and direction, pressure, relative humidity, and dust size and shape. The principal investigator is Jose Rodriguez-Manfredi, Centro de Astrobiología, Instituto
+        Nacional de Tecnica Aeroespacial, Spain. <br><br>
+
+      <h3>• The Radar Imager for Mars’ Subsurface Experiment (RIMFAX),</h3> <br>
+      <p> A ground-penetrating radar that will provide centimeter-scale resolution of the geologic structure of the subsurface. The principal investigator is Svein-Erik Hamran, the Norwegian Defense Research Establishment, Norway.
+      <p> <br><br>
+
+      <h3>• Rover Size and Dimensions</h3><br>
+
+      <p>Perseverance’s body and other major hardware (such as the cruise stage, descent stage, and aeroshell/heat shield)  build upon the success of
+        NASA’s Curiosity rover and include many heritage components. The car-sized Perseverance rover has
+        roughly the same dimensions as Curiosity: it’s about 10 feet long (not including the arm), 9 feet wide, and 7 feet tall (about 3 meters long, 2.7 meters wide, and 2.2 meters tall). But at 2,260 pounds (1,025 kilograms), Perseverance is about
+        278 pounds (126 kilograms) heavier than Curiosity.
+      <p> <br><br></p>
+
+      <h2> Technology </h2> <br>
+      <p>Perseverance will also test new technology for future robotic and human missions to the Red Planet. That includes ;
+        an autopilot for avoiding hazards called Terrain Relative Navigation and a set of sensors for gathering data during the landing (Mars Entry, Descent and Landing Instrumentation 2, or MEDLI2). A new autonomous navigation system will allow the
+        rover to drive faster in challenging terrain. As with Curiosity, Perseverance’s baseline power system is a Multi-Mission Radioisotope Thermoelectric Generator(MMRTG) provided by the U.S. Department of Energy. It uses the heat from the natural
+        decay of plutonium-238 to generate electricity. <br><br></p>
+
+      <h2> Program Management</h2><br><br>
+      <p>The Mars 2020 Project is managed for NASA’s Science Mission Directorate, Washington, D.C., by the Jet Propulsion Laboratory (JPL), a division of Caltech in Pasadena, California.
+        At NASA Headquarters, George Tahu is the Mars 2020 program executive and Mitchell Schulte is program scientist. At JPL, John McNamee is the Mars 2020 project manager and Ken Farley of Caltech is project scientist.
+        <br><br><br>
+
+        For more information about the Mars 2020 mission and NASA’s Mars Exploration Program, visit: <a href="mars.nasa.gov/mars2020">mars.nasa.gov/mars2020</a>
+      </p>
+
+
+
+
+
+      <br> <br> <br>
+      </p>
+    </span>
+    <div class="top"></div>
+  </div>
+
+  <br><br><br><br><br>
+  <hr><br><br>
+  <center>
+    <br>
+    <p>Designed and developed by <strong>Lisandu Sandiv</strong><br>
+    <p>¯\_(ツ)_/¯</p>
+
+    </p><br><br><br><br>
+  </center>
+
+</body>
+
+</html>

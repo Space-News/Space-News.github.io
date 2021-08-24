@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Code by Lisandu Sandiv-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:title" content="Space Race" />
+  <meta property="og:site_name" content="race" />
+  <meta property="og:description" content="Created by Liandu Sandiv" />
+  <meta property="og:image" content="Icons\fav 2.png" />
+  <title>Space Race</title>
+  <link rel="shortcut icon" type="image/svg" href="Icons\fav.png">
+  <link rel="stylesheet" href="CSS\style.css">
+  <link rel="stylesheet" href="CSS\nav.csss">
+  <link rel="stylesheet" href="CSS\cards.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS\Loader.css">
+
+  <script src="jquery-2.1.4.js"></script>
+  <script defer src="JavaScript\Script.js"></script>
+  <script defer src="JavaScript\pre.js"></script>
+
+</head>
+<style>
+  header {
+    background-image: url("CSS/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+</style>
+
+<body>
+  <!-- prelorder start  -->
+  <div class="loader">
+    <div class="sk-circle">
+      <div class="sk-circle1 sk-child"></div>
+      <div class="sk-circle2 sk-child"></div>
+      <div class="sk-circle3 sk-child"></div>
+      <div class="sk-circle4 sk-child"></div>
+      <div class="sk-circle5 sk-child"></div>
+      <div class="sk-circle6 sk-child"></div>
+      <div class="sk-circle7 sk-child"></div>
+      <div class="sk-circle8 sk-child"></div>
+      <div class="sk-circle9 sk-child"></div>
+      <div class="sk-circle10 sk-child"></div>
+      <div class="sk-circle11 sk-child"></div>
+      <div class="sk-circle12 sk-child"></div>
+    </div>
+  </div>
+  <script src="JavaScript\pre.js" charset="utf-8"></script>
+
+  <!-- prelorder end  -->
+
+  <nav id="navbar">
+
+    <lable class="logo">
+      <p style="font-family:Space;">Space news</p>
+    </lable>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <br><br>
+  <header>
+    <center>
+      <div id="banner">
+        <h1 style="color:#bdc3c7; font-family:Space; ">SPACE <span style="color:#bd3d3b;">news</span></h1><br>
+    </center>
+    </div>
+  </header>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="Icons\up-arrow.png" style="width:70%;"></button>
+
+  <script type="text/javascript">
+    var lastScrollTop = 0;
+    navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", function() {
+      var scrollTop = window.pageYOffset || document
+        .documentElement.scrollTop;
+
+      if (scrollTop > lastScrollTop) {
+        navbar.style.top = "-80px";
+      } else {
+        navbar.style.top = "0";
+      }
+      lastScrollTop = scrollTop;
+    })
+
+    window.addEventListener('scroll', function() {
+      let header = document.querySelector('header');
+      let windowPosition = window.scrollY > 0;
+      header.classList.toggle('scrolling-active', windowPosition);
+    })
+  </script>
+
+
+
+  <br>
+  <div class="wrapper">
+    <div class="cards_wrap">
+      <div class="card_item">
+        <div class="card_inner">
+          <div class="card_top">
+            <video autoplay loop muted>
+              <source src="Videos\Perseverance.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="card_bottom">
+            <div class="card_category">
+              <h1 class="Heading">NASA's Perseverance Rover</h1>
+            </div>
+            <div class="card_info">
+
+              <p>
+                Over the past two decades, missions flown
+                by NASA’s Mars Exploration Program have
+                shown us that Mars was once very different
+                from the cold, dry planet it is today. Evidence
+                discovered by landed and orbital missions point
+                to wet conditions billions of years ago. These
+                environments lasted long enough to potentially
+                support the development of microbial life.
+                The Mars 2020/Perseverance rover is designed to
+                better understand the geology of Mars and seek
+                signs of ancient life. <br><br>
+              </p>
+            </div>
+            <div class="card_creator">
+              <p><a href="perseverance.html" class="read">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card_item">
+        <div class="card_inner">
+          <div class="card_top">
+            <video autoplay loop muted>
+              <source src="Videos\Ingenuity 1280.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="card_bottom">
+            <div class="card_category">
+              <h1 class="Heading">Ingenuity The Mars Helicopter</h1>
+            </div>
+            <div class="card_info">
+
+              <p>
+                The Mars Helicopter, Ingenuity, is a small, autonomous aircraft that will be carried to the surface of the Red Planet attached to the belly of the Perseverance rover. Its mission is experimental in nature and completely
+                independent of the rover’s science mission. In the months after landing, the helicopter will be placed on the surface to test for the first time ever powered flight in the thin Martian air.flights will help inform decisions relating
+                to considering small helicopters for future Mars missions, where they could perform in a support role as robotic scouts, surveying terrain from above, or as full standalone science craft carrying
+                instrument payloads.
+              </p>
+            </div>
+            <div class="card_creator">
+              <p><a href="Ingenuity.html" class="read">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card_item">
+        <div class="card_inner">
+          <div class="card_top">
+            <img src="Images/Black Hole.jpg" alt="car" />
+          </div>
+          <div class="card_bottom">
+            <div class="card_category">
+              <h1 class="Heading">Clostest Black Hole to earth</h1>
+            </div>
+            <div class="card_info">
+
+              <p>
+                Astronomers think they have discovered a tiny black hole, with a mass so small it places it in an exclusive category. Best of all, it's excitingly close by.Roughly 1,500 light-years from our own planet, in a Milky Way constellation known as Monoceros, this is the closest black hole candidate to our planet scientists have yet had the fortune to find. The team at Ohio State University have named it the Unicorn - a hat tip to the black hole's home and its exceedingly rare nature.
+
+              </p>
+            </div>
+            <div class="card_creator">
+              <p><a href="blackhole.html" class="read">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card_item">
+        <div class="card_inner">
+          <div class="card_top">
+            <img src="Images/Saturn_during_Equinox.jpg" alt="car" />
+          </div>
+          <div class="card_bottom">
+            <div class="card_category">
+              <h1 class="Heading">Mysterious Saturn</h1>
+            </div>
+            <div class="card_info">
+
+              <p>
+                The interiors of Jupiter and Saturn are actually quite difficult to probe. But Saturn's uniquely glorious and extensive ring system is proving to be an excellent tool for figuring out the densities deep below its
+                  thick cloud layers, right down to the core.That core, according to a new analysis of 'wobbles' in Saturn's innermost main ring, likely isn't a dense ball of nickel and iron, as currently thought, but a "fuzzy" region of mostly hydrogen and helium, with a gradual mixing
+                    of heavier elements, extending to 60 percent of the planet's radius and containing around 17 Earth masses of ice and rock. <br><br> <br>
+              </p>
+            </div>
+            <div class="card_creator">
+              <p><a href="saturn.html" class="read">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card_item">
+        <div class="card_inner">
+          <div class="card_top">
+            <img src="Images/Laser.jpg" alt="car" />
+          </div>
+          <div class="card_bottom">
+            <div class="card_category">
+              <h1 class="Heading">Laser Cpmmucation</h1>
+            </div>
+            <div class="card_info">
+
+              <p>
+                NASA’s Laser Communications Relay Demonstration (LCRD) will showcase the dynamic powers of laser communications technologies. With NASA’s ever-increasing human and robotic presence in space, missions can benefit from a
+                new way of “talking” with Earth.Since the beginning of spaceflight in the 1950s, NASA missions have leveraged radio frequency communications to send data to and from space. Laser communications, also known as optical communications, will further empower missions with unprecedented data capabilities.
+              </p>
+            </div>
+            <div class="card_creator">
+              <p><a href="lasercommucation.html" class="read">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card_item">
+        <div class="card_inner">
+          <div class="card_top">
+            <img src="CSS/bgimg2.jpg" alt="car" />
+          </div>
+          <div class="card_bottom">
+            <div class="card_category">
+              <h1 class="Heading">Space Race</h1>
+            </div>
+            <div class="card_info">
+
+              <p>
+                The Space Race was a 20th-century competition between two Cold War adversaries, the Soviet Union and the United States, to achieve superior spaceflight capability. It had its origins in the ballistic missile-based nuclear arms race
+                between the two nations following World War II. <br><br><br><br><br><br><br><br>
+              </p>
+            </div>
+            <div class="card_creator">
+              <p><a href="spacerace.html" class="read">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<center><div class="soon"><br><h2>More News Comming Soon!</h2></div></center>
+
+
+  <br><br><br><br><br>
+  <hr>s<br>
+  <center>
+    <br>
+    <p>Designed and developed by <strong>Lisandu Sandiv</strong><br>
+    <p>¯\_(ツ)_/¯</p>
+    </p><br><br><br><br>
+  </center>
+
+</body>
+
+</html>

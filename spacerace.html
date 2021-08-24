@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Code by Lisandu Sandiv-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:title" content="Space Race" />
+  <meta property="og:site_name" content="race" />
+  <meta property="og:description" content="Created by Liandu Sandiv" />
+  <meta property="og:image" content="Icons\fav 2.png" />
+  <title>Space Race</title>
+  <link rel="shortcut icon" type="image/svg" href="Icons\fav.png">
+  <link rel="stylesheet" href="CSS\style.css">
+  <link rel="stylesheet" href="CSS\nav.csss">
+  <link rel="stylesheet" href="#">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS\Loader.css">
+  <script src="jquery-2.1.4.js"></script>
+  <script defer src="JavaScript\Script.js"></script>
+  <script defer src="JavaScript\pre.js"></script>
+
+</head>
+<style>
+header {
+  background-image:url("CSS/bgimg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+</style>
+<body>
+  <!-- prelorder start  -->
+  <div class="loader">
+    <div class="sk-circle">
+      <div class="sk-circle1 sk-child"></div>
+      <div class="sk-circle2 sk-child"></div>
+      <div class="sk-circle3 sk-child"></div>
+      <div class="sk-circle4 sk-child"></div>
+      <div class="sk-circle5 sk-child"></div>
+      <div class="sk-circle6 sk-child"></div>
+      <div class="sk-circle7 sk-child"></div>
+      <div class="sk-circle8 sk-child"></div>
+      <div class="sk-circle9 sk-child"></div>
+      <div class="sk-circle10 sk-child"></div>
+      <div class="sk-circle11 sk-child"></div>
+      <div class="sk-circle12 sk-child"></div>
+    </div>
+  </div>
+  <script src="JavaScript\pre.js" charset="utf-8"></script>
+
+  <!-- prelorder end  -->
+
+  <nav id="navbar">
+
+    <lable class="logo">
+      <p style="font-family:Space;">Space news</p>
+    </lable>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <br><br>
+  <header>
+    <center>
+      <div id="banner">
+        <h1 style="color:#bdc3c7; font-family:Space; ">SPACE <span style="color:#bd3d3b;">RACE</span></h1><br>
+    </center>
+    </div>
+  </header>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="Icons\up-arrow.png" style="width:60%;"></button>
+
+  <script type="text/javascript">
+    var lastScrollTop = 0;
+    navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", function() {
+      var scrollTop = window.pageYOffset || document
+        .documentElement.scrollTop;
+
+      if (scrollTop > lastScrollTop) {
+        navbar.style.top = "-80px";
+      } else {
+        navbar.style.top = "0";
+      }
+      lastScrollTop = scrollTop;
+    })
+
+    window.addEventListener('scroll', function() {
+      let header = document.querySelector('header');
+      let windowPosition = window.scrollY > 0;
+      header.classList.toggle('scrolling-active', windowPosition);
+    })
+  </script>
+
+  <br>
+  <div class="center">
+    <h2 id="start">What is a Rocket?</h2>.
+    <br><br>
+    <p>The word "rocket" can mean different things. Most people think of a tall, thin, round vehicle. They think of a rocket that launches into space. "Rocket" can mean a type of engine. The word also can mean a vehicle that uses that engine.</p>
+    <abbr title="SpaceX Falcon 9"><div class="module"><img src="Images\rocket1.jpg" alt="Rocket" style="float:right; width:50%; padding: 10px;"></div></abbr>
+    <br><br>
+
+    <h2>Worlds first Rocket</h2><br><br>
+    <p>The date reporting the first use of true rockets was in 1232. At this time, the Chinese and the Mongols were at war with each other. During the battle of Kai-Keng, the Chinese repelled the Mongol invaders by a barrage of "arrows of flying
+      fire."
+      These fire-arrows were a simple form of a solid-propellant rocket.</p>
+    <center><br>
+      <h1>Man's first flight to the Space</h1>
+    </center>
+    <br><br>
+    <p><strong>Yuri Gagarin</strong> was the first person to fly in space. His flight, on April 12, 1961, lasted 108 minutes as he circled the Earth for a little more than one orbit in the Soviet Union's Vostok spacecraft. Following the flight,
+      Gagarin became a cultural hero in the Soviet Union. Even today, more than six decades after the historic flight, Gagarin is widely celebrated in Russian space museums, with numerous artifacts, busts and statues displayed in his honor. His
+      remains are buried at the Kremlin in Moscow, and part of his spacecraft is on display at the RKK Energiya museum.
+      <abbr title="Yuri Gagarin"><img src="Images\Yuri_Gagarin.jpg" alt="Yuri Gagarin" style="float:left; width:40%; padding:10px;"></abbr>
+      <br><br>
+      Gagarin's flight came at a time when the United States and the Soviet Union were competing for technological supremacy in space. The Soviet Union had already sent the first artificial satellite, called Sputnik, into space in October 1957.
+      <br><br>
+      Before Gagarin's mission, the Soviets sent a test flight into space using a prototype of the Vostok spacecraft. During this flight, they sent a life-size dummy called Ivan Ivanovich and a dog named Zvezdochka into space. After the test flight,
+      the Soviet's considered the vessel fit to take a human into space.
+    </p>
+    <br>
+    <h2>Becoming a legendary astronaut</h2>
+    <br><br>
+    <p>The third of four children, Yuri Alekseyevich Gagarin was born on March 9, 1934, in a small village a hundred miles from Moscow. As a teenager, Gagarin witnessed a Russian Yak fighter plane make an emergency landing near his home. When offered
+      a chance years later to join a flying club, he eagerly accepted, making his first solo flight in 1955. Only a few years later, he submitted his request to be considered as a cosmonaut. [Photos: Yuri Gagarin & 50 Years of Human Spaceflight]
+      <br><br>
+      More than 200 Russian Air Force fighter pilots were selected as cosmonaut candidates. Such pilots were considered optimal because they had exposure to the forces of acceleration and the ejection process, as well as experience with high-stress
+      situations. Gagarin, a 27-year-old senior lieutenant at the time, was among the pilots selected.
+      <br><br>
+      On April 12, 1961, at 9:07 a.m. Moscow time, the Vostok 1 spacecraft blasted off from the Soviets' launch site. Because no one was certain how weightlessness would affect a pilot, the spherical capsule had little in the way of onboard controls;
+      the work was done either automatically or from the ground. If an emergency arose, Gagarin was supposed to receive an override code that would allow him to take manual control, but Sergei Korolev, chief designer of the Soviet space program,
+      disregarded protocol and gave the code to the pilot prior to the flight.
+      <br><br>
+      Over the course of 108 minutes, Vostok 1 traveled around the Earth once, reaching a maximum height of 203 miles (327 kilometers). The spacecraft carried 10 days' worth of provisions in case the engines failed and Gagarin was required to wait
+      for the orbit to naturally decay. But the supplies were unnecessary. Gagarin re-entered Earth's atmosphere, managing to maintain consciousness as he experienced forces up to eight times the pull of gravity during his descent.
+      <br><br>
+      Vostok 1 had no engines to slow its re-entry and no way to land safely. About 4 miles (7 km) up, Gagarin ejected from the spacecraft and parachuted to Earth. In order for the mission to be counted as an official spaceflight, the Fédération
+      Aéronautique Internationale (FAI), the governing body for aerospace records, had determined that the pilot must land with the spacecraft. Soviet leaders indicated that Gagarin had touched down with the Vostok 1, and they did not reveal that he
+      had ejected until 1971. Regardless, Gagarin still set the record as the first person to leave Earth's orbit and travel into space.
+    </p>
+    <br><br>
+    <h2>Gagarin's legacy</h2>
+    <br>
+    <p>Upon his return to Earth, Gagarin was an international hero. A cheering crowd of hundreds of thousands of people greeted him in Red Square, a public plaza in Moscow. A national treasure, Gagarin traveled around the world to celebrate the
+      historic Soviet achievement.
+      <br><br>
+      When he returned home, Gagarin became a deputy of the Supreme Soviet of the Soviet Union (the highest legislative body in the Soviet Union) and was appointed commander of the Cosmonauts' Detachment. Because the Soviets did not want to risk
+      losing such an important public figure, they were hesitant about allowing Gagarin to return to space. He continued to make test flights for the Air Force, however.
+      <br><br>
+      On March 27, 1968, Gagarin was killed (along with another pilot) while test-piloting a MiG-15, a jet fighter aircraft. He was survived by his wife, Valentina Ivanovna Goryacheva, and two daughters.
+    </p>
+    <br><br><br>
+    <h1>Start Of The Space Race</h1>
+    <br>
+    <h2>What is Space Race</h2>
+    <br>
+    <p>Vostok 1 had no engines to slow its re-entry and no way to land safely. About 4 miles (7 km) up, Gagarin ejected from the spacecraft and parachuted to Earth. In order for the mission to be counted as an official spaceflight, the Fédération
+      Aéronautique Internationale (FAI), the governing body for aerospace records, had determined that the pilot must land with the spacecraft. Soviet leaders indicated that Gagarin had touched down with the Vostok 1, and they did not reveal that he
+      had ejected until 1971. Regardless, Gagarin still set the record as the first person to leave Earth's orbit and travel into space.</p> <abbr title="Viking 1"><img src="Images\1st_rocket.jpg" alt="1st Rocket" style="float:right; width:30%; padding:10px;"></abbr>
+    <p></p><br><br><br>
+    <h2>How it began</h2><br><br>
+    <p>The opening salvo of the space race was the launch of the Soviet satellite Sputnik 1 on Oct. 4, 1957. The U.S. government had already been planning to launch its own artificial satellite, and members of the public were shocked when they saw
+      that the Soviet Union, which had been devastated during World War II, was able to achieve this milestone first, NASA wrote on the 60th anniversary of the launch.
+      <br><br>
+      The Soviets followed up with another triumph less than a month later with the launch of Sputnik 2, which carried a dog named Laika. It wasn't until the next year, 1958, that the Americans had their first achievement in the space race, launching
+      a satellite called Explorer 1. That same year, NASA was founded and publicly announced the creation of a program to send human passengers into space.
+      <br><br>
+      Still, for much of the first half of the space race, the Soviet Union was considered to be ahead. Its engineers accomplished many firsts, including the first mission to leave Earth orbit, Luna 1; the first probe to reach the moon, Luna 2; and
+      the first spacecraft to head toward Venus, Venera, which stopped responding a week after its launch.
+      <br><br><abbr title="Apollo 11"><img src="Images\Apollo_11.jpg" alt="Apollo 11" style="float:left; width:30%; padding:10px;"></abbr>
+      On April 12, 1961, the Soviets obtained another spectacular victory with the successful flight of Yuri Gagarin, the first person to fly in space. After returning to Earth, Gagarin was celebrated as an international hero. Gagarin beat the first
+      American, Alan Shepard, into space by less than a month. Shepard's flight took place on May 5, 1961.
+      <br><br>
+      A major turning point in the space race occurred that same month, when U.S. President John F. Kennedy stood before legislators in Congress and announced that he had committed NASA to landing people on the moon before the end of the decade. A
+      few months later, at Rice University in Texas, Kennedy delivered his famous "Moon Speech," where he said, "We choose to go to the moon … in this decade and do the other things, not because they are easy, but because they are hard."
+      <br><br>
+      Who won the space race?
+      Over the next few years, each side in the space race took several other firsts. The Americans achieved the first interplanetary flyby when Mariner 2 sped past Venus in 1962, followed by the first Mars flyby in 1965 with Mariner 4. The Soviets
+      sent the first woman into space, Valentina Tereshkova, in 1963 (a feat that would take the U.S. 20 more years to achieve). Other nations launched their own rockets and satellites, including Canada in 1962, France in 1965, and Japan and China in
+      1970.
+
+      But these countries' successes were mere sideshows in what came to be the main event of the space race: NASA's Apollo program. Following the achievements of the crewed Mercury and Gemini programs, NASA engineers embarked on a series of missions
+      to place human footprints on the moon.
+      <br><br>
+      The program got off to a horrific start on Jan. 27, 1967, when all three astronauts in the Apollo 1 capsule were killed during a launch rehearsal test that sparked a huge fire. But that catastrophic failure generated extensive redesigns of the
+      spacecraft and a commitment to ensuring that the crew did not die in vain.
+      <br><br>
+      Apollo 11 lunar module pilot Buzz Aldrin stands on the moon near the American flag during NASA's historic first manned moon landing on July 20, 1969. Apollo 11 commander Neil Armstrong took the photo.
+      <br><br>
+      Apollo 11 lunar module pilot Buzz Aldrin stands on the moon near the American flag during NASA's historic first manned moon landing on July 20, 1969. Apollo 11 commander Neil Armstrong took the photo. NASA's successful Apollo program meant the
+      U.S. was widely considered the winner of the space race. (Image credit: NASA)
+      Just over a year later, on Oct. 11, 1968, NASA launched its first Apollo astronauts into space aboard a Saturn I rocket for the 11-day Apollo 7 mission. This was followed two months later by Apollo 8, which sent a crew around the moon and back
+      to Earth. Meanwhile, the Soviets were continuing to build up their spaceflight capabilities, but by the time of Apollo 8, repeated disasters had caused their moon program to lose momentum.
+      <br><br>
+      In 1969, NASA launched Apollo 9, which conducted critical tests of its lunar module in Earth orbit; and Apollo 10, which all but landed on the moon, bringing its crew within a few miles of the lunar surface. Then, on July 20, 1969, the space
+      race reached its peak when Neil Armstrong and Buzz Aldrin landed on the moon and walk<br>ed on its surface during the Apollo 11 mission.
+      <br>
+      Though there were additional American and Soviet missions, after the successes of the Apollo program, the space race was widely believed to have been won by the U.S. Eventually, as the Cold War wound down, both sides agreed to cooperate in
+      space and construct the International Space Station beginning in 1998.
+      <br><br>
+
+      Additional resources:
+      <br><br>
+      Watch: <a href="#">Neil Armstrong on 'The Space Race,' from NASA Video.
+        Read more about the space race from Smithsonian Magazine.
+        Learn why the Soviet Union lost the space race, according to Forbes.</a>
+    </p>
+    <div class="top"></div>
+  </div>
+
+  <br><br><br><br><br>
+  <hr><br>
+  <center>
+    <br>
+    <p>Designed and developed by <strong>Lisandu Sandiv</strong><br>
+    <p>¯\_(ツ)_/¯</p>
+    </p><br><br><br><br>
+  </center>
+
+</body>
+
+</html>
